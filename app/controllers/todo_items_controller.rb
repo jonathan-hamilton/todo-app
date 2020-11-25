@@ -11,6 +11,7 @@ class TodoItemsController < ApplicationController
   def show
   end
 
+ 
   # GET todo_lists/1/todo_items/new
   def new
     @todo_item = @todo_list.todo_items.build
